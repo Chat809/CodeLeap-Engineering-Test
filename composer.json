@@ -1,0 +1,6 @@
+{
+    "name": "codeleap/engineering-test",
+    "description": "Placeholder for Hostinger Git deploy (Node.js/Next.js project). Build and run via npm.",
+    "type": "project",
+    "require": {}
+}
