@@ -253,9 +253,9 @@ export function EditPostModal({ isOpen, onClose, post, onUpdated, onMediaChange 
                       tabIndex={0}
                     />
                     <span>Choose File</span>
-                    <span flex={1} noOfLines={1} title={fileName || "No file chosen"}>
+                    <Box as="span" flex={1} noOfLines={1} title={fileName || "No file chosen"}>
                       {fileName || "No file chosen"}
-                    </span>
+                    </Box>
                   </Box>
                 )}
               </FormControl>
